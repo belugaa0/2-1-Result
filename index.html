@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Student Result</title>
+  </head>
+  <body>
+
+
+
+<h3 style="margin-bottom: 14px;">Enter Hall Ticket No</h3>
+<input class="input-no" type="text" id="htno"/><br>
+<button class="result-button" onclick="validatehtno()">Search Result</button> 
+
+<p id="error-message" style="color: red; display: none;">Invalid Hall Ticket Number</p>
+
+
+<div class="result-page">
+
+  <div class="info">
+      <h3 class="htno">HTNO:</h3>
+      <h3 class="no">23j41a3357</h3>
+      <h3 class="sname">-Student Name:</h3>
+      <h3 class="name">SHIRPE SUYOG BHUMANNA</h3>
+  </div>
+
+
+  <h3 class="dept"><span>Department</span>: Computer Science and Information Technology</h3>
+    
+    <div class="overall-marks">
+      <table>
+        <tr>
+          <td class="header" colspan="4">Overall Marks</td>
+        </tr>
+        <tr>
+          <td>Marks Obtained:</td>
+          <td></td>
+          <td>CGPA:</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Credits Obtained:</td>
+          <td></td>
+          <td>Subject Due:</td>
+          <td></td>
+        </tr>
+      </table>
+    </div>
+
+
+
+    <div class="container">
+      <h3>SEMESTER-1</h1>
+      <table>
+        <tr>
+          <th rowspan="2">Code</th>
+          <th rowspan="2">Subject</th>
+          <th colspan="2">CIE*</th>
+          <th colspan="2">SEE*</th>
+          <th rowspan="1">CIE+SEE</th>
+          <th colspan="2">Credits</th>
+          <th colspan="2">Final Result</th>
+        </tr>
+
+        <tr>
+          <th>Max Marks</th>
+          <th>Marks Obtained</th>
+          <th>Max Marks</th>
+          <th>Marks Obtained</th>
+          <th>Total</th>
+          <th>Registered</th>
+          <th>Obtained</th>
+          <th>Status</th>
+          <th>Grade</th>
+        </tr>
+
+        <tr>
+          <td>COB01</td>
+          <td>Discrete Maths</td>
+          <td class="max-marks">40</td>
+          <td>23</td>
+          <td class="max-marks">60</td>
+          <td>48</td>
+          <td>71</td>
+          <td>4</td>
+          <td>4</td>
+          <td class="status">Pass</td>
+          <td class="grade">A</td>
+        </tr>
+
+        <tr>
+          <td>COB01</td>
+          <td>Computer Organisation & Architecture</td>
+          <td class="max-marks">40</td>
+          <td>23</td>
+          <td class="max-marks">60</td>
+          <td>48</td>
+          <td>71</td>
+          <td>4</td>
+          <td>4</td>
+          <td class="status">Pass</td>
+          <td class="grade">A</td>
+        </tr>
+
+        <tr>
+          <td>COB01</td>
+          <td>Data Structures</td>
+          <td class="max-marks">40</td>
+          <td>23</td>
+          <td class="max-marks">60</td>
+          <td>48</td>
+          <td>71</td>
+          <td>4</td>
+          <td>4</td>
+          <td class="status">Pass</td>
+          <td class="grade">A</td>
+        </tr>
+
+        <tr>
+          <td>COB01</td>
+          <td>Object Oriented Programming</td>
+          <td class="max-marks">40</td>
+          <td>23</td>
+          <td class="max-marks">60</td>
+          <td>48</td>
+          <td>71</td>
+          <td>4</td>
+          <td>4</td>
+          <td class="status">Pass</td>
+          <td class="grade">A</td>
+        </tr>
+
+        <tr>
+          <td>COB01</td>
+          <td>Introduction to IOT</td>
+          <td class="max-marks">40</td>
+          <td>23</td>
+          <td class="max-marks">60</td>
+          <td>48</td>
+          <td>71</td>
+          <td>4</td>
+          <td>4</td>
+          <td class="status">Pass</td>
+          <td class="grade">A</td>
+        </tr>
+
+        <tr>
+          <td>COB01</td>
+          <td>Data Structures Lab</td>
+          <td class="max-marks">40</td>
+          <td>23</td>
+          <td class="max-marks">60</td>
+          <td>48</td>
+          <td>71</td>
+          <td>4</td>
+          <td>4</td>
+          <td class="status">Pass</td>
+          <td class="grade">A</td>
+        </tr>
+
+        <tr>
+          <td>COB01</td>
+          <td>Object Oriented Programming Lab</td>
+          <td class="max-marks">40</td>
+          <td>23</td>
+          <td class="max-marks">60</td>
+          <td>48</td>
+          <td>71</td>
+          <td>4</td>
+          <td>4</td>
+          <td class="status">Pass</td>
+          <td class="grade">A</td>
+        </tr>
+
+        <tr>
+          <td>COB01</td>
+          <td>Data Visualization Lab</td>
+          <td class="max-marks">40</td>
+          <td>23</td>
+          <td class="max-marks">60</td>
+          <td>48</td>
+          <td>71</td>
+          <td>4</td>
+          <td>4</td>
+          <td class="status">Pass</td>
+          <td class="grade">A</td>
+        </tr>
+
+        <tr>
+          <td></td>
+          <td>Total</td>
+          <td >320</td>
+          <td></td>
+          <td >480</td>
+          <td></td>
+          <td></td>
+          <td>21</td>
+          <td></td>
+          <td ></td>
+          <td ></td>
+        </tr>
+
+        <tr>
+          <td colspan="5" style="text-align: center; font-weight: bold; text-align: left;"> Percentage of Marks: </td>
+          <td colspan="6" style="text-align: center; font-weight: bold; text-align: right;">SGPA: </td>
+        </tr>
+
+      </table>
+    </div>
+
+    <h4 style="text-align: left; margin-left: 260px;">CIE*: Continuous Internal Evaluation</h4>
+    <h4 style="text-align: left; margin-left: 260px;">SEE*: Semester End Examination</h4>
+
+    <h4>© 2025 - Malla Reddy Engineering College</h4>
+
+</div>
+
+
+<script src="script.js"></script>
+
+  </body>
+</html>

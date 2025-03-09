@@ -1,0 +1,124 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  text-align: center;
+}
+
+.result-page{
+  display: none;
+}
+
+
+
+.input-no{
+  width: 250px;
+  height: 35px;
+  border-radius: 4px;
+  font-size: 18px;
+  text-align: center;
+  padding: 5px;
+}
+
+.result-button{
+  height: 40px;
+  width: 130px;
+  color: white;
+  font-size: 15px;
+  background-color: #c63d5d;
+  border-radius: 4px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px; 
+  flex-wrap: wrap; 
+  
+}
+
+
+
+.info .htno, .sname {
+  margin: 0;
+  font-size: 18px;
+  color: #06007a;
+}
+
+.info .no, .name{
+  color:#653f8c;
+}
+
+.dept{
+  margin-top: 0;
+}
+
+h3 span{
+  color: #06007a;
+}
+
+.overall-marks {
+    width: 400px;
+    margin: 20px auto;
+    text-align: center;
+}
+.overall-marks table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.overall-marks td {
+    border: 1px solid black;
+    padding: 8px;
+    font-weight: bold;
+    text-align: center;
+}
+.header {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.container {
+  width: 65%;
+  margin: auto;
+  border: 1px solid #000;
+}
+
+.container h3{
+  margin: 2px 0 0 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 10px 0 0 0;
+
+}
+
+th,
+td {
+  border: 1px solid #000;
+  padding: 10px;
+  text-align: center;
+}
+th {
+  background-color: #127978;
+  color: #fff;
+}
+
+
+.max-marks{
+    background-color: #d3d3d3;
+}
+
+.status{
+    background-color: #c2f9c0;
+}
+
+.grade{
+    background-color: #cbe6ad;
+}
+
