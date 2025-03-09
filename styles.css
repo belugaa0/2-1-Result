@@ -4,14 +4,13 @@ body {
   text-align: center;
 }
 
-.result-page{
+.result-page {
   display: none;
 }
 
-
-
-.input-no{
-  width: 250px;
+.input-no {
+  width: 80%;
+  max-width: 250px;
   height: 35px;
   border-radius: 4px;
   font-size: 18px;
@@ -19,7 +18,7 @@ body {
   padding: 5px;
 }
 
-.result-button{
+.result-button {
   height: 40px;
   width: 130px;
   color: white;
@@ -34,12 +33,10 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 8px; 
-  flex-wrap: wrap; 
-  
+  gap: 8px;
+  flex-wrap: wrap;
+  text-align: left;
 }
-
-
 
 .info .htno, .sname {
   margin: 0;
@@ -47,47 +44,53 @@ body {
   color: #06007a;
 }
 
-.info .no, .name{
-  color:#653f8c;
+.info .no, .name {
+  color: #653f8c;
 }
 
-.dept{
+.dept {
   margin-top: 0;
 }
 
-h3 span{
+h3 span {
   color: #06007a;
 }
 
 .overall-marks {
-    width: 400px;
-    margin: 20px auto;
-    text-align: center;
-}
-.overall-marks table {
-    width: 100%;
-    border-collapse: collapse;
-}
-.overall-marks td {
-    border: 1px solid black;
-    padding: 8px;
-    font-weight: bold;
-    text-align: center;
-}
-.header {
-    font-size: 16px;
-    font-weight: bold;
-    text-align: center;
+  width: 90%;
+  max-width: 400px;
+  margin: 20px auto;
+  text-align: center;
 }
 
+.overall-marks table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.overall-marks td {
+  border: 1px solid black;
+  padding: 8px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.header {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
 
 .container {
-  width: 65%;
+  width: 95%;
+  max-width: 800px;
   margin: auto;
   border: 1px solid #000;
+  overflow-x: auto;
+  position: relative;
 }
 
-.container h3{
+.container h3 {
   margin: 2px 0 0 0;
 }
 
@@ -95,30 +98,85 @@ table {
   width: 100%;
   border-collapse: collapse;
   margin: 10px 0 0 0;
-
 }
 
-th,
-td {
+th, td {
   border: 1px solid #000;
   padding: 10px;
   text-align: center;
 }
+
 th {
   background-color: #127978;
   color: #fff;
 }
 
-
-.max-marks{
-    background-color: #d3d3d3;
+.max-marks {
+  background-color: #d3d3d3;
 }
 
-.status{
-    background-color: #c2f9c0;
+.status {
+  background-color: #c2f9c0;
 }
 
-.grade{
-    background-color: #cbe6ad;
+.grade {
+  background-color: #cbe6ad;
 }
 
+
+.cie-see-info{
+  margin-left: 260px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+    overflow-x: auto;
+  }
+
+  .info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: left;
+  }
+
+  .overall-marks, .container {
+    width: 100%;
+  }
+
+  table {
+    font-size: 14px;
+  }
+
+  th, td {
+    padding: 6px;
+  }
+}
+
+@media (max-width: 480px) {
+  .input-no {
+    width: 90%;
+  }
+
+
+  .overall-marks table, .container table {
+    font-size: 12px;
+  }
+
+  .info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: left;
+  }
+}
+
+.cie-see-info {
+  margin-left: 0;
+  padding: 10px;
+  text-align: left;
+}
