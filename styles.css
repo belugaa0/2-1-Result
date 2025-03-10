@@ -1,7 +1,18 @@
 body {
   font-family: Arial, sans-serif;
-  margin: 20px;
+  margin: 20px 5px;
   text-align: center;
+}
+
+.banner{
+  width: 100%;
+  height: 120px;
+  margin: 0 auto;
+}
+
+.head-line{
+  font-size: 20px;
+  color: #383093;
 }
 
 .result-page {
@@ -45,7 +56,7 @@ body {
 }
 
 .info .no, .name {
-  color: #653f8c;
+  color: #8041a9;
 }
 
 .dept {
@@ -173,6 +184,8 @@ th {
     flex-wrap: wrap;
     text-align: left;
   }
+
+
 }
 
 .cie-see-info {

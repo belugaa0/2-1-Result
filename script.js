@@ -2,14 +2,70 @@ let students = [
     {
         rlno: "23J41A3301",
         stname: "AAKASH MATTA",
-        m1: 20, m2: 18, m3: 19, m4: 19, m5: 20,
-        s1: 18, s2: 16, s3: 23, s4: 21, s5: 28,
-        i1: 20, i2: 22, i3: 30,
-        e1: 32, e2: 36, e3: 45,
-        c1: 0, c2: 0, c3: 0, c4: 0, c5: 0,c6: 0,c7: 0,c8: 0,
+        m1: 17, m2: 19, m3: 17, m4: 16, m5: 20,
+        s1: 18, s2: 12, s3: 23, s4: 21, s5: 28,
+        i1: 20, i2: 22, i3: 38,
+        e1: 32, e2: 36, e3: 58,
+        c1: 0, c2: 0, c3: 0, c4: 0, c5: 3,c6: 2,c7: 2,c8: 1,
         stat1: "", stat2: "", stat3: "", stat4: "", stat5: "", stat6: "", stat7: "", stat8: "",
         grad1: "", grad2: "", grad3: "", grad4: "", grad5: "", grad6: "", grad7: "", grad8: ""
-    }
+    },
+
+    {
+        rlno: "23J41A3302",
+        stname: "AARE ADITYA",
+        m1: 26, m2: 30, m3: 28, m4: 27, m5: 34,
+        s1: 40, s2: 18, s3: 35, s4: 39, s5: 46,
+        i1: 26, i2: 30, i3: 38,
+        e1: 48, e2: 52, e3: 59,
+        c1: 4, c2: 0, c3: 3, c4: 3, c5: 3,c6: 2,c7: 2,c8: 1,
+        stat1: "", stat2: "", stat3: "", stat4: "", stat5: "", stat6: "", stat7: "", stat8: "",
+        grad1: "", grad2: "", grad3: "", grad4: "", grad5: "", grad6: "", grad7: "", grad8: ""
+    },
+
+    {
+        rlno: "23J41A3303",
+        stname: "ADAPA MADHU PRIYA",
+        m1: 36, m2: 37, m3: 39, m4: 39, m5: 40,
+        s1: 53, s2: 24, s3: 56, s4: 54, s5: 56,
+        i1: 38, i2: 38, i3: 40,
+        e1: 56, e2: 58, e3: 60,
+        c1: 4, c2: 0, c3: 3, c4: 3, c5: 3,c6: 2,c7: 2,c8: 1,
+        stat1: "", stat2: "", stat3: "", stat4: "", stat5: "", stat6: "", stat7: "", stat8: "",
+        grad1: "", grad2: "", grad3: "", grad4: "", grad5: "", grad6: "", grad7: "", grad8: ""
+    },
+
+    {
+        rlno: "23J41A3304",
+        stname: "ALETI ANANYA",
+        m1: 33, m2: 32, m3: 32, m4: 36, m5: 38,
+        s1: 54, s2: 21, s3: 51, s4: 49, s5: 56,
+        i1: 36, i2: 36, i3: 38,
+        e1: 55, e2: 56, e3: 59,
+        c1: 4, c2: 0, c3: 3, c4: 3, c5: 3,c6: 2,c7: 2,c8: 1,
+        stat1: "", stat2: "", stat3: "", stat4: "", stat5: "", stat6: "", stat7: "", stat8: "",
+        grad1: "", grad2: "", grad3: "", grad4: "", grad5: "", grad6: "", grad7: "", grad8: ""
+    },
+
+    {
+        rlno: "23J41A3305",
+        stname: "ANDRA SATYA KISHORE",
+        m1: 17, m2: 22, m3: 17, m4: 16, m5: 29,
+        s1: 18, s2: 18, s3: 29, s4: 28, s5: 28,
+        i1: 26, i2: 28, i3: 38,
+        e1: 40, e2: 42, e3: 50,
+        c1: 0, c2: 0, c3: 3, c4: 3, c5: 3,c6: 2,c7: 2,c8: 1,
+        stat1: "", stat2: "", stat3: "", stat4: "", stat5: "", stat6: "", stat7: "", stat8: "",
+        grad1: "", grad2: "", grad3: "", grad4: "", grad5: "", grad6: "", grad7: "", grad8: ""
+    },
+
+    
+
+    
+
+
+
+   
 ];
 
 function validatehtno() {
