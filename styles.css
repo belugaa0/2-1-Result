@@ -35,6 +35,7 @@ body {
   color: white;
   font-size: 15px;
   background-color: #c63d5d;
+  border: 1px solid black;
   border-radius: 4px;
   margin-top: 10px;
   cursor: pointer;
@@ -135,6 +136,8 @@ th {
 }
 
 
+
+
 .cie-see-info{
   margin-left: 260px;
 }
@@ -144,6 +147,9 @@ th {
   .container {
     width: 100%;
     overflow-x: auto;
+  }
+  .banner{
+    height: 90px;
   }
 
   .info {
@@ -170,6 +176,10 @@ th {
 @media (max-width: 480px) {
   .input-no {
     width: 90%;
+  }
+
+  .banner{
+    height: 60px;
   }
 
 
