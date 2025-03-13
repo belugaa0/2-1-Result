@@ -148,9 +148,13 @@ th {
     width: 100%;
     overflow-x: auto;
   }
-  .banner{
-    height: 90px;
+
+  #logo{
+    content: url(banner2.png);
+    height: 200px;
+    
   }
+
 
   .info {
     display: flex;
@@ -178,9 +182,14 @@ th {
     width: 90%;
   }
 
-  .banner{
-    height: 60px;
+  #logo{
+    content: url(banner3.png);
+    height: 200px;
+    
   }
+
+
+
 
 
   .overall-marks table, .container table {

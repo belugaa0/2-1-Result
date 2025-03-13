@@ -467,14 +467,365 @@ let students = [
         grad1: "", grad2: "", grad3: "", grad4: "", grad5: "", grad6: "", grad7: "", grad8: ""
     },
 
-    
+    {
+        rlno: "23J41A3341",
+        stname: "MOHAMMED SAMEER PASHA",
+        m1: 25, m2: 28, m3: 24, m4: 19, m5: 26,
+        s1: 30, s2: 22, s3: 39, s4: 36, s5:46,
+        i1: 24, i2: 27, i3: 35,
+        e1: 45, e2: 46, e3: 54,
+        c1: 4, c2: 0, c3: 3, c4: 3, c5: 3,c6: 2,c7: 2,c8: 1,
+        stat1: "", stat2: "", stat3: "", stat4: "", stat5: "", stat6: "", stat7: "", stat8: "",
+        grad1: "", grad2: "", grad3: "", grad4: "", grad5: "", grad6: "", grad7: "", grad8: ""
+    },
 
+    {
+        rlno: "23J41A3342",
+        stname: "MOKLE PARAMESHWAR",
+        m1: 21, m2: 25, m3: 15, m4: 16, m5: 27,
+        s1: 21, s2: 22, s3: 40, s4: 33, s5:44,
+        i1: 24, i2: 27, i3: 33,
+        e1: 41, e2: 43, e3: 52,
+        c1: 0, c2: 0, c3: 3, c4: 3, c5: 3,c6: 2,c7: 2,c8: 1,
+        stat1: "", stat2: "", stat3: "", stat4: "", stat5: "", stat6: "", stat7: "", stat8: "",
+        grad1: "", grad2: "", grad3: "", grad4: "", grad5: "", grad6: "", grad7: "", grad8: ""
+    },
 
+    {
+        rlno: "23J41A3343",
+        stname: "MUDAVATH SAIKUMAR",
+        m1: 23, m2: 21, m3: 26, m4: 23, m5: 26,
+        s1: 24, s2: 23, s3: 38, s4: 31, s5:37,
+        i1: 24, i2: 25, i3: 31,
+        e1: 43, e2: 45, e3: 51,
+        c1: 0, c2: 0, c3: 3, c4: 3, c5: 3,c6: 2,c7: 2,c8: 1,
+        stat1: "", stat2: "", stat3: "", stat4: "", stat5: "", stat6: "", stat7: "", stat8: "",
+        grad1: "", grad2: "", grad3: "", grad4: "", grad5: "", grad6: "", grad7: "", grad8: ""
+    },
 
+    {
+        rlno: "23J41A3344",
+        stname: "N RISHITH",
+        m1: 34, m2: 32, m3: 35, m4: 32, m5: 36,
+        s1: 43, s2: 31, s3: 44, s4: 40, s5: 51,
+        i1: 31, i2: 32, i3: 36,
+        e1: 48, e2: 49, e3: 52,
+        c1: 4, c2: 3, c3: 3, c4: 3, c5: 3,c6: 2,c7: 2,c8: 1,
+        stat1: "", stat2: "", stat3: "", stat4: "", stat5: "", stat6: "", stat7: "", stat8: "",
+        grad1: "", grad2: "", grad3: "", grad4: "", grad5: "", grad6: "", grad7: "", grad8: ""
+    },
 
+    {
+        rlno: "23J41A3345",
+        stname: "NEELI DEEKSHITH KUMAR",
+        m1: 34, m2: 32, m3: 32, m4: 33, m5: 36,
+        s1: 40, s2: 31, s3: 45, s4: 41, s5: 48,
+        i1: 32, i2: 33, i3: 36,
+        e1: 49, e2: 49, e3: 51,
+        c1: 4, c2: 3, c3: 3, c4: 3, c5: 3,c6: 2,c7: 2,c8: 1,
+        stat1: "", stat2: "", stat3: "", stat4: "", stat5: "", stat6: "", stat7: "", stat8: "",
+        grad1: "", grad2: "", grad3: "", grad4: "", grad5: "", grad6: "", grad7: "", grad8: ""
+    },
 
-    
+    {
+        rlno: "23J41A3346",
+        stname: "NULI MOUNIKA",
+        m1: 23, m2: 21, m3: 24, m4: 23, m5: 26,
+        s1: 24, s2: 23, s3: 40, s4: 33, s5:37,
+        i1: 26, i2: 27, i3: 33,
+        e1: 43, e2: 44, e3: 51,
+        c1: 0, c2: 0, c3: 3, c4: 3, c5: 3,c6: 2,c7: 2,c8: 1,
+        stat1: "", stat2: "", stat3: "", stat4: "", stat5: "", stat6: "", stat7: "", stat8: "",
+        grad1: "", grad2: "", grad3: "", grad4: "", grad5: "", grad6: "", grad7: "", grad8: ""
+    },
 
+    {
+        rlno: "23J41A3347",
+        stname: "PALNATI SHIVASAI VENKAT GOUD",
+        m1: 25, m2: 29, m3: 32, m4: 30, m5: 26,
+        s1: 36, s2: 24, s3: 43, s4: 42, s5:48,
+        i1: 26, i2: 28, i3: 36,
+        e1: 51, e2: 50, e3: 55,
+        c1: 4, c2: 0, c3: 3, c4: 3, c5: 3,c6: 2,c7: 2,c8: 1,
+        stat1: "", stat2: "", stat3: "", stat4: "", stat5: "", stat6: "", stat7: "", stat8: "",
+        grad1: "", grad2: "", grad3: "", grad4: "", grad5: "", grad6: "", grad7: "", grad8: ""
+    },
+
+    {
+        rlno: "23J41A3348",
+        stname: "PATLAWATH RAVINDAR NAYAK",
+        m1: 25, m2: 28, m3: 28, m4: 19, m5: 19,
+        s1: 32, s2: 23, s3: 42, s4: 40, s5:469,
+        i1: 24, i2: 27, i3: 35,
+        e1: 45, e2: 46, e3: 54,
+        c1: 4, c2: 0, c3: 3, c4: 3, c5: 3,c6: 2,c7: 2,c8: 1,
+        stat1: "", stat2: "", stat3: "", stat4: "", stat5: "", stat6: "", stat7: "", stat8: "",
+        grad1: "", grad2: "", grad3: "", grad4: "", grad5: "", grad6: "", grad7: "", grad8: ""
+    },
+
+    {
+        rlno: "23J41A3349",
+        stname: "PITTA AKANKSHA",
+        m1: 25, m2: 28, m3: 24, m4: 19, m5: 26,
+        s1: 29, s2: 22, s3: 38, s4: 36, s5:46,
+        i1: 24, i2: 27, i3: 35,
+        e1: 45, e2: 46, e3: 52,
+        c1: 4, c2: 0, c3: 3, c4: 3, c5: 3,c6: 2,c7: 2,c8: 1,
+        stat1: "", stat2: "", stat3: "", stat4: "", stat5: "", stat6: "", stat7: "", stat8: "",
+        grad1: "", grad2: "", grad3: "", grad4: "", grad5: "", grad6: "", grad7: "", grad8: ""
+    },
+
+    {
+        rlno: "23J41A3350",
+        stname: "SANIKA NITHIN KUMAR",
+        m1: 14, m2: 22, m3: 19, m4: 18, m5: 27,
+        s1: 19, s2: 21, s3: 30, s4: 29, s5: 39,
+        i1: 26, i2: 28, i3: 34,
+        e1: 40, e2: 42, e3: 50,
+        c1: 0, c2: 0, c3: 3, c4: 3, c5: 3,c6: 2,c7: 2,c8: 1,
+        stat1: "", stat2: "", stat3: "", stat4: "", stat5: "", stat6: "", stat7: "", stat8: "",
+        grad1: "", grad2: "", grad3: "", grad4: "", grad5: "", grad6: "", grad7: "", grad8: ""
+    },
+
+    {
+        rlno: "23J41A3351",
+        stname: "SANJEEVI MADHAN MOHAN",
+        m1: 17, m2: 18, m3: 17, m4: 16, m5: 29,
+        s1: 36, s2: 23, s3: 42, s4: 39, s5:44,
+        i1: 26, i2: 28, i3: 33,
+        e1: 40, e2: 42, e3: 51,
+        c1: 4, c2: 0, c3: 3, c4: 3, c5: 3,c6: 2,c7: 2,c8: 1,
+        stat1: "", stat2: "", stat3: "", stat4: "", stat5: "", stat6: "", stat7: "", stat8: "",
+        grad1: "", grad2: "", grad3: "", grad4: "", grad5: "", grad6: "", grad7: "", grad8: ""
+    },
+
+    {
+        rlno: "23J41A3352",
+        stname: "SARA RAKESH",
+        m1: 25, m2: 26, m3: 24, m4: 22, m5: 26,
+        s1: 30, s2: 26, s3: 41, s4: 46, s5:49,
+        i1: 24, i2: 27, i3: 35,
+        e1: 48, e2: 49, e3: 54,
+        c1: 4, c2: 3, c3: 3, c4: 3, c5: 3,c6: 2,c7: 2,c8: 1,
+        stat1: "", stat2: "", stat3: "", stat4: "", stat5: "", stat6: "", stat7: "", stat8: "",
+        grad1: "", grad2: "", grad3: "", grad4: "", grad5: "", grad6: "", grad7: "", grad8: ""
+    },
+
+    {
+        rlno: "23J41A3353",
+        stname: "SHAIK IZAAZ AHMED",
+        m1: 25, m2: 29, m3: 30, m4: 19, m5: 19,
+        s1: 24, s2: 27, s3: 46, s4: 40, s5:48,
+        i1: 26, i2: 28, i3: 36,
+        e1: 51, e2: 50, e3: 55,
+        c1: 0, c2: 3, c3: 3, c4: 3, c5: 3,c6: 2,c7: 2,c8: 1,
+        stat1: "", stat2: "", stat3: "", stat4: "", stat5: "", stat6: "", stat7: "", stat8: "",
+        grad1: "", grad2: "", grad3: "", grad4: "", grad5: "", grad6: "", grad7: "", grad8: ""
+    },
+
+    {
+        rlno: "23J41A3354",
+        stname: "SHAIK SAMINA",
+        m1: 25, m2: 28, m3: 24, m4: 19, m5: 26,
+        s1: 29, s2: 22, s3: 38, s4: 36, s5:46,
+        i1: 24, i2: 27, i3: 35,
+        e1: 45, e2: 46, e3: 52,
+        c1: 4, c2: 0, c3: 3, c4: 3, c5: 3,c6: 2,c7: 2,c8: 1,
+        stat1: "", stat2: "", stat3: "", stat4: "", stat5: "", stat6: "", stat7: "", stat8: "",
+        grad1: "", grad2: "", grad3: "", grad4: "", grad5: "", grad6: "", grad7: "", grad8: ""
+    },
+
+    {
+        rlno: "23J41A3355",
+        stname: "SHAIK SHOWKATH ALI",
+        m1: 22, m2: 26, m3: 26, m4: 24, m5: 29,
+        s1: 22, s2: 24, s3: 46, s4: 48, s5: 42,
+        i1: 26, i2: 28, i3: 35,
+        e1: 46, e2: 49, e3: 52,
+        c1: 0, c2: 0, c3: 3, c4: 3, c5: 3,c6: 2,c7: 2,c8: 1,
+        stat1: "", stat2: "", stat3: "", stat4: "", stat5: "", stat6: "", stat7: "", stat8: "",
+        grad1: "", grad2: "", grad3: "", grad4: "", grad5: "", grad6: "", grad7: "", grad8: ""
+    },
+
+    {
+        rlno: "23J41A3356",
+        stname: "SHAKARLAWAR ASHWINI NAGABHUSHAN REDDY",
+        m1: 26, m2: 24, m3: 27, m4: 23, m5: 29,
+        s1: 36, s2: 24, s3: 46, s4: 45, s5:24,
+        i1: 27, i2: 28, i3: 31,
+        e1: 49, e2: 50, e3: 51,
+        c1: 4, c2: 0, c3: 3, c4: 3, c5: 0,c6: 2,c7: 2,c8: 1,
+        stat1: "", stat2: "", stat3: "", stat4: "", stat5: "", stat6: "", stat7: "", stat8: "",
+        grad1: "", grad2: "", grad3: "", grad4: "", grad5: "", grad6: "", grad7: "", grad8: ""
+    },
+
+    {
+        rlno: "23J41A3357",
+        stname: "SHIRPE SUYOG BHUMANNA",
+        m1: 29, m2: 30, m3: 32, m4: 30, m5: 33,
+        s1: 48, s2: 24, s3: 50, s4: 44, s5:49,
+        i1: 27, i2: 28, i3: 31,
+        e1: 49, e2: 50, e3: 54,
+        c1: 4, c2: 0, c3: 3, c4: 3, c5: 0,c6: 2,c7: 2,c8: 1,
+        stat1: "", stat2: "", stat3: "", stat4: "", stat5: "", stat6: "", stat7: "", stat8: "",
+        grad1: "", grad2: "", grad3: "", grad4: "", grad5: "", grad6: "", grad7: "", grad8: ""
+    },
+
+    {
+        rlno: "23J41A3358",
+        stname: "THOTA SRINIJA",
+        m1: 14, m2: 22, m3: 19, m4: 18, m5: 27,
+        s1: 19, s2: 21, s3: 30, s4: 29, s5: 39,
+        i1: 26, i2: 28, i3: 34,
+        e1: 40, e2: 42, e3: 50,
+        c1: 0, c2: 0, c3: 3, c4: 3, c5: 3,c6: 2,c7: 2,c8: 1,
+        stat1: "", stat2: "", stat3: "", stat4: "", stat5: "", stat6: "", stat7: "", stat8: "",
+        grad1: "", grad2: "", grad3: "", grad4: "", grad5: "", grad6: "", grad7: "", grad8: ""
+    },
+
+    {
+        rlno: "23J41A3359",
+        stname: "UPPARI YOGESHWAR",
+        m1: 25, m2: 28, m3: 28, m4: 19, m5: 19,
+        s1: 32, s2: 23, s3: 42, s4: 40, s5:469,
+        i1: 24, i2: 27, i3: 35,
+        e1: 45, e2: 46, e3: 54,
+        c1: 4, c2: 0, c3: 3, c4: 3, c5: 3,c6: 2,c7: 2,c8: 1,
+        stat1: "", stat2: "", stat3: "", stat4: "", stat5: "", stat6: "", stat7: "", stat8: "",
+        grad1: "", grad2: "", grad3: "", grad4: "", grad5: "", grad6: "", grad7: "", grad8: ""
+    },
+
+    {
+        rlno: "23J41A3360",
+        stname: "VADLAKONDA KRISHNA PRIYA",
+        m1: 34, m2: 32, m3: 35, m4: 32, m5: 36,
+        s1: 43, s2: 31, s3: 44, s4: 40, s5: 51,
+        i1: 31, i2: 32, i3: 36,
+        e1: 48, e2: 49, e3: 52,
+        c1: 4, c2: 3, c3: 3, c4: 3, c5: 3,c6: 2,c7: 2,c8: 1,
+        stat1: "", stat2: "", stat3: "", stat4: "", stat5: "", stat6: "", stat7: "", stat8: "",
+        grad1: "", grad2: "", grad3: "", grad4: "", grad5: "", grad6: "", grad7: "", grad8: ""
+    },
+
+    {
+        rlno: "23J41A3362",
+        stname: "VELISALA SRIDHAR",
+        m1: 14, m2: 22, m3: 19, m4: 18, m5: 27,
+        s1: 19, s2: 21, s3: 32, s4: 30, s5: 43,
+        i1: 26, i2: 28, i3: 34,
+        e1: 40, e2: 42, e3: 50,
+        c1: 0, c2: 0, c3: 3, c4: 3, c5: 3,c6: 2,c7: 2,c8: 1,
+        stat1: "", stat2: "", stat3: "", stat4: "", stat5: "", stat6: "", stat7: "", stat8: "",
+        grad1: "", grad2: "", grad3: "", grad4: "", grad5: "", grad6: "", grad7: "", grad8: ""
+    },
+
+    {
+        rlno: "23J41A3363",
+        stname: "VISHNUMOLAKALA SRI VENKATESHWAR RAO",
+        m1: 22, m2: 26, m3: 26, m4: 24, m5: 29,
+        s1: 40, s2: 38, s3: 46, s4: 48, s5: 42,
+        i1: 26, i2: 28, i3: 35,
+        e1: 46, e2: 49, e3: 52,
+        c1: 4, c2: 3, c3: 3, c4: 3, c5: 3,c6: 2,c7: 2,c8: 1,
+        stat1: "", stat2: "", stat3: "", stat4: "", stat5: "", stat6: "", stat7: "", stat8: "",
+        grad1: "", grad2: "", grad3: "", grad4: "", grad5: "", grad6: "", grad7: "", grad8: ""
+    },
+
+    {
+        rlno: "23J41A3364",
+        stname: "YADAGIRI AJAY",
+        m1: 32, m2: 32, m3: 33, m4: 31, m5: 35,
+        s1: 43, s2: 23, s3: 44, s4: 40, s5: 51,
+        i1: 31, i2: 32, i3: 36,
+        e1: 48, e2: 49, e3: 52,
+        c1: 4, c2: 0, c3: 3, c4: 3, c5: 3,c6: 2,c7: 2,c8: 1,
+        stat1: "", stat2: "", stat3: "", stat4: "", stat5: "", stat6: "", stat7: "", stat8: "",
+        grad1: "", grad2: "", grad3: "", grad4: "", grad5: "", grad6: "", grad7: "", grad8: ""
+    },
+
+    {
+        rlno: "24J45A3301",
+        stname: "BOLLA SRUJAN",
+        m1: 16, m2: 22, m3: 19, m4: 18, m5: 27,
+        s1: 23, s2: 22, s3: 30, s4: 31, s5: 39,
+        i1: 26, i2: 28, i3: 34,
+        e1: 40, e2: 42, e3: 50,
+        c1: 0, c2: 0, c3: 3, c4: 3, c5: 3,c6: 2,c7: 2,c8: 1,
+        stat1: "", stat2: "", stat3: "", stat4: "", stat5: "", stat6: "", stat7: "", stat8: "",
+        grad1: "", grad2: "", grad3: "", grad4: "", grad5: "", grad6: "", grad7: "", grad8: ""
+    },
+
+    {
+        rlno: "24J45A3302",
+        stname: "ENUGU SAI DHANUSHH",
+        m1: 27, m2: 31, m3: 33, m4: 30, m5: 32,
+        s1: 34, s2: 29, s3: 45, s4: 46, s5: 48,
+        i1: 29, i2: 28, i3: 32,
+        e1: 47, e2: 49, e3: 52,
+        c1: 4, c2: 3, c3: 3, c4: 3, c5: 3,c6: 2,c7: 2,c8: 1,
+        stat1: "", stat2: "", stat3: "", stat4: "", stat5: "", stat6: "", stat7: "", stat8: "",
+        grad1: "", grad2: "", grad3: "", grad4: "", grad5: "", grad6: "", grad7: "", grad8: ""
+    },
+
+    {
+        rlno: "24J45A3303",
+        stname: "GUDISE NITHISH KUMAR",
+        m1: 24, m2: 30, m3: 31, m4: 29, m5: 33,
+        s1: 34, s2: 26, s3: 46, s4: 44, s5: 46,
+        i1: 29, i2: 30, i3: 34,
+        e1: 49, e2: 46, e3: 53,
+        c1: 4, c2: 3, c3: 3, c4: 3, c5: 3,c6: 2,c7: 2,c8: 1,
+        stat1: "", stat2: "", stat3: "", stat4: "", stat5: "", stat6: "", stat7: "", stat8: "",
+        grad1: "", grad2: "", grad3: "", grad4: "", grad5: "", grad6: "", grad7: "", grad8: ""
+    },
+
+    {
+        rlno: "24J45A3304",
+        stname: "MADDI AMULYA",
+        m1: 25, m2: 31, m3: 33, m4: 30, m5: 34,
+        s1: 36, s2: 26, s3: 47, s4: 45, s5: 47,
+        i1: 30, i2: 31, i3: 33,
+        e1: 48, e2: 50, e3: 52,
+        c1: 4, c2: 3, c3: 3, c4: 3, c5: 3,c6: 2,c7: 2,c8: 1,
+        stat1: "", stat2: "", stat3: "", stat4: "", stat5: "", stat6: "", stat7: "", stat8: "",
+        grad1: "", grad2: "", grad3: "", grad4: "", grad5: "", grad6: "", grad7: "", grad8: ""
+    },
+
+    {
+        rlno: "24J45A3305",
+        stname: "PEDDABOINA DOLESHWAR",
+        m1: 25, m2: 26, m3: 24, m4: 22, m5: 26,
+        s1: 30, s2: 26, s3: 41, s4: 46, s5:49,
+        i1: 24, i2: 27, i3: 35,
+        e1: 48, e2: 49, e3: 54,
+        c1: 4, c2: 3, c3: 3, c4: 3, c5: 3,c6: 2,c7: 2,c8: 1,
+        stat1: "", stat2: "", stat3: "", stat4: "", stat5: "", stat6: "", stat7: "", stat8: "",
+        grad1: "", grad2: "", grad3: "", grad4: "", grad5: "", grad6: "", grad7: "", grad8: ""
+    },
+
+    {
+        rlno: "24J45A3306",
+        stname: "PUTTAPAKULA BHARATH",
+        m1: 31, m2: 31, m3: 33, m4: 30, m5: 32,
+        s1: 40, s2: 31, s3: 43, s4: 40, s5: 50,
+        i1: 30, i2: 31, i3: 32,
+        e1: 46, e2: 48, e3: 50,
+        c1: 4, c2: 3, c3: 3, c4: 3, c5: 3,c6: 2,c7: 2,c8: 1,
+        stat1: "", stat2: "", stat3: "", stat4: "", stat5: "", stat6: "", stat7: "", stat8: "",
+        grad1: "", grad2: "", grad3: "", grad4: "", grad5: "", grad6: "", grad7: "", grad8: ""
+    },
+
+    {
+        rlno: "24J45A3307",
+        stname: "THOTA SHOURYA VARDHAN MUDIRAJ",
+        m1: 29, m2: 30, m3: 31, m4: 31, m5: 33,
+        s1: 41, s2: 29, s3: 44, s4: 42, s5: 49,
+        i1: 29, i2: 30, i3: 33,
+        e1: 48, e2: 49, e3: 51,
+        c1: 4, c2: 3, c3: 3, c4: 3, c5: 3,c6: 2,c7: 2,c8: 1,
+        stat1: "", stat2: "", stat3: "", stat4: "", stat5: "", stat6: "", stat7: "", stat8: "",
+        grad1: "", grad2: "", grad3: "", grad4: "", grad5: "", grad6: "", grad7: "", grad8: ""
+    },
 
 
 
