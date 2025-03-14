@@ -206,10 +206,10 @@ let students = [
     {
         rlno: "23J41A3318",
         stname: "GANJI PRANEETHA",
-        m1: 36, m2: 36, m3: 34, m4: 35, m5: 36,
-        s1: 51, s2: 48, s3: 50, s4: 50, s5: 51,
-        i1: 32, i2: 34, i3: 35,
-        e1: 51, e2: 53, e3: 54,
+        m1: 32, m2: 32, m3: 34, m4: 33, m5: 34,
+        s1: 36, s2: 39, s3: 45, s4: 46, s5: 46,
+        i1: 30, i2: 32, i3: 33,
+        e1: 44, e2: 46, e3: 49,
         c1: 4, c2: 3, c3: 3, c4: 3, c5: 3,c6: 2,c7: 2,c8: 1,
         stat1: "", stat2: "", stat3: "", stat4: "", stat5: "", stat6: "", stat7: "", stat8: "",
         grad1: "", grad2: "", grad3: "", grad4: "", grad5: "", grad6: "", grad7: "", grad8: ""
@@ -245,7 +245,7 @@ let students = [
         m1: 17, m2: 19, m3: 16, m4: 16, m5: 20,
         s1: 18, s2: 16, s3: 24, s4: 21, s5: 28,
         i1: 20, i2: 22, i3: 30,
-        e1: 30, e2: 32, e3: 48,
+        e1: 30, e2: 31, e3: 44,
         c1: 0, c2: 0, c3: 0, c4: 0, c5: 3,c6: 2,c7: 2,c8: 1,
         stat1: "", stat2: "", stat3: "", stat4: "", stat5: "", stat6: "", stat7: "", stat8: "",
         grad1: "", grad2: "", grad3: "", grad4: "", grad5: "", grad6: "", grad7: "", grad8: ""
@@ -254,10 +254,10 @@ let students = [
     {
         rlno: "23J41A3322",
         stname: "GOTTEMUKKULA UDAY",
-        m1: 32, m2: 32, m3: 32, m4: 34, m5: 36,
-        s1: 44, s2: 34, s3: 46, s4: 43, s5: 48,
-        i1: 32, i2: 33, i3: 37,
-        e1: 49, e2: 50, e3: 54,
+        m1: 32, m2: 32, m3: 32, m4: 34, m5: 35,
+        s1: 42, s2: 32, s3: 44, s4: 43, s5: 46,
+        i1: 32, i2: 33, i3: 34,
+        e1: 49, e2: 48, e3: 52,
         c1: 4, c2: 3, c3: 3, c4: 3, c5: 3,c6: 2,c7: 2,c8: 1,
         stat1: "", stat2: "", stat3: "", stat4: "", stat5: "", stat6: "", stat7: "", stat8: "",
         grad1: "", grad2: "", grad3: "", grad4: "", grad5: "", grad6: "", grad7: "", grad8: ""
@@ -312,12 +312,12 @@ let students = [
     },
 
     {
-        rlno: "23J41A3318",
+        rlno: "23J41A3328",
         stname: " JALAGARI GURUNATH",
         m1: 21, m2: 22, m3: 20, m4: 16, m5: 21,
         s1: 26, s2: 24, s3: 36, s4: 34, s5:39,
         i1: 21, i2: 23, i3: 34,
-        e1: 43, e2: 44, e3: 53,
+        e1: 43, e2: 44, e3: 52,
         c1: 4, c2: 0, c3: 3, c4: 3, c5: 3,c6: 2,c7: 2,c8: 1,
         stat1: "", stat2: "", stat3: "", stat4: "", stat5: "", stat6: "", stat7: "", stat8: "",
         grad1: "", grad2: "", grad3: "", grad4: "", grad5: "", grad6: "", grad7: "", grad8: ""
@@ -374,10 +374,10 @@ let students = [
     {
         rlno: "23J41A3333",
         stname: "KUKKAPALLY NYSHITHA",
-        m1: 32, m2: 32, m3: 32, m4: 34, m5: 36,
-        s1: 47, s2: 36, s3: 46, s4: 44, s5: 51,
-        i1: 32, i2: 35, i3: 37,
-        e1: 49, e2: 50, e3: 53,
+        m1: 31, m2: 32, m3: 33, m4: 34, m5: 34,
+        s1: 47, s2: 36, s3: 46, s4: 44, s5: 48,
+        i1: 32, i2: 34, i3: 35,
+        e1: 49, e2: 50, e3: 51,
         c1: 4, c2: 3, c3: 3, c4: 3, c5: 3,c6: 2,c7: 2,c8: 1,
         stat1: "", stat2: "", stat3: "", stat4: "", stat5: "", stat6: "", stat7: "", stat8: "",
         grad1: "", grad2: "", grad3: "", grad4: "", grad5: "", grad6: "", grad7: "", grad8: ""
@@ -387,9 +387,9 @@ let students = [
         rlno: "23J41A3334",
         stname: "MANDALAPU TEJA",
         m1: 36, m2: 38, m3: 39, m4: 38, m5: 39,
-        s1: 51, s2: 37, s3: 49, s4: 47, s5: 50,
+        s1: 50, s2: 37, s3: 49, s4: 44, s5: 48,
         i1: 32, i2: 33, i3: 37,
-        e1: 51, e2: 50, e3: 54,
+        e1: 51, e2: 50, e3: 53,
         c1: 4, c2: 3, c3: 3, c4: 3, c5: 3,c6: 2,c7: 2,c8: 1,
         stat1: "", stat2: "", stat3: "", stat4: "", stat5: "", stat6: "", stat7: "", stat8: "",
         grad1: "", grad2: "", grad3: "", grad4: "", grad5: "", grad6: "", grad7: "", grad8: ""
@@ -410,10 +410,10 @@ let students = [
     {
         rlno: "23J41A3336",
         stname: "MANTHRIPRAGADA VARSHA VARDHINI",
-        m1: 32, m2: 32, m3: 32, m4: 34, m5: 36,
-        s1: 47, s2: 36, s3: 46, s4: 44, s5: 51,
+        m1: 32, m2: 32, m3: 32, m4: 34, m5: 35,
+        s1: 45, s2: 36, s3: 46, s4: 44, s5: 48,
         i1: 32, i2: 35, i3: 37,
-        e1: 49, e2: 50, e3: 53,
+        e1: 49, e2: 50, e3: 50,
         c1: 4, c2: 3, c3: 3, c4: 3, c5: 3,c6: 2,c7: 2,c8: 1,
         stat1: "", stat2: "", stat3: "", stat4: "", stat5: "", stat6: "", stat7: "", stat8: "",
         grad1: "", grad2: "", grad3: "", grad4: "", grad5: "", grad6: "", grad7: "", grad8: ""
@@ -507,9 +507,9 @@ let students = [
         rlno: "23J41A3344",
         stname: "N RISHITH",
         m1: 34, m2: 32, m3: 35, m4: 32, m5: 36,
-        s1: 43, s2: 31, s3: 44, s4: 40, s5: 51,
+        s1: 42, s2: 31, s3: 44, s4: 39, s5: 51,
         i1: 31, i2: 32, i3: 36,
-        e1: 48, e2: 49, e3: 52,
+        e1: 48, e2: 49, e3: 51,
         c1: 4, c2: 3, c3: 3, c4: 3, c5: 3,c6: 2,c7: 2,c8: 1,
         stat1: "", stat2: "", stat3: "", stat4: "", stat5: "", stat6: "", stat7: "", stat8: "",
         grad1: "", grad2: "", grad3: "", grad4: "", grad5: "", grad6: "", grad7: "", grad8: ""
@@ -555,7 +555,7 @@ let students = [
         rlno: "23J41A3348",
         stname: "PATLAWATH RAVINDAR NAYAK",
         m1: 25, m2: 28, m3: 28, m4: 19, m5: 19,
-        s1: 32, s2: 23, s3: 42, s4: 40, s5:469,
+        s1: 32, s2: 23, s3: 42, s4: 40, s5:46,
         i1: 24, i2: 27, i3: 35,
         e1: 45, e2: 46, e3: 54,
         c1: 4, c2: 0, c3: 3, c4: 3, c5: 3,c6: 2,c7: 2,c8: 1,
