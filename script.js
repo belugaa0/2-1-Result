@@ -14,10 +14,10 @@ let students = [
     {
         rlno: "23J41A3302",
         stname: "AARE ADITYA",
-        m1: 26, m2: 24, m3: 28, m4: 27, m5: 34,
-        s1: 40, s2: 26, s3: 35, s4: 39, s5: 46,
-        i1: 26, i2: 30, i3: 34,
-        e1: 48, e2: 50, e3: 54,
+        m1: 26, m2: 24, m3: 27, m4: 24, m5: 31,
+        s1: 37, s2: 26, s3: 35, s4: 37, s5: 44,
+        i1: 26, i2: 30, i3: 31,
+        e1: 44, e2: 47, e3: 52,
         c1: 4, c2: 3, c3: 3, c4: 3, c5: 3,c6: 2,c7: 2,c8: 1,
         stat1: "", stat2: "", stat3: "", stat4: "", stat5: "", stat6: "", stat7: "", stat8: "",
         grad1: "", grad2: "", grad3: "", grad4: "", grad5: "", grad6: "", grad7: "", grad8: ""
@@ -172,8 +172,8 @@ let students = [
         stname: "ENDUKURI SAI SNIGDHA",
         m1: 37, m2: 37, m3: 39, m4: 38, m5: 39,
         s1: 50, s2: 38, s3: 50, s4: 48, s5: 50,
-        i1: 36, i2: 35, i3: 37,
-        e1: 54, e2: 55, e3: 56,
+        i1: 33, i2: 32, i3: 33,
+        e1: 50, e2: 51, e3: 54,
         c1: 4, c2: 3, c3: 3, c4: 3, c5: 3,c6: 2,c7: 2,c8: 1,
         stat1: "", stat2: "", stat3: "", stat4: "", stat5: "", stat6: "", stat7: "", stat8: "",
         grad1: "", grad2: "", grad3: "", grad4: "", grad5: "", grad6: "", grad7: "", grad8: ""
@@ -207,9 +207,9 @@ let students = [
         rlno: "23J41A3318",
         stname: "GANJI PRANEETHA",
         m1: 36, m2: 36, m3: 34, m4: 35, m5: 36,
-        s1: 54, s2: 48, s3: 55, s4: 56, s5: 54,
-        i1: 32, i2: 35, i3: 38,
-        e1: 54, e2: 55, e3: 58,
+        s1: 51, s2: 48, s3: 50, s4: 50, s5: 51,
+        i1: 32, i2: 34, i3: 35,
+        e1: 51, e2: 53, e3: 54,
         c1: 4, c2: 3, c3: 3, c4: 3, c5: 3,c6: 2,c7: 2,c8: 1,
         stat1: "", stat2: "", stat3: "", stat4: "", stat5: "", stat6: "", stat7: "", stat8: "",
         grad1: "", grad2: "", grad3: "", grad4: "", grad5: "", grad6: "", grad7: "", grad8: ""
