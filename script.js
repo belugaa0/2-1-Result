@@ -206,8 +206,8 @@ let students = [
     {
         rlno: "23J41A3318",
         stname: "GANJI PRANEETHA",
-        m1: 32, m2: 32, m3: 34, m4: 33, m5: 34,
-        s1: 36, s2: 39, s3: 45, s4: 46, s5: 46,
+        m1: 33, m4: 32, m3: 34, m4: 31, m5: 34,
+        s1: 46, s2: 43, s3: 48, s4: 49, s5: 53,
         i1: 30, i2: 32, i3: 33,
         e1: 44, e2: 46, e3: 49,
         c1: 4, c2: 3, c3: 3, c4: 3, c5: 3,c6: 2,c7: 2,c8: 1,
@@ -795,10 +795,10 @@ let students = [
         rlno: "24J45A3305",
         stname: "PEDDABOINA DOLESHWAR",
         m1: 25, m2: 26, m3: 24, m4: 22, m5: 26,
-        s1: 30, s2: 26, s3: 41, s4: 46, s5:49,
+        s1: 30, s2: 26, s3: 0, s4: 46, s5:49,
         i1: 24, i2: 27, i3: 35,
         e1: 48, e2: 49, e3: 54,
-        c1: 4, c2: 3, c3: 3, c4: 3, c5: 3,c6: 2,c7: 2,c8: 1,
+        c1: 4, c2: 3, c3: 0, c4: 3, c5: 3,c6: 2,c7: 2,c8: 1,
         stat1: "", stat2: "", stat3: "", stat4: "", stat5: "", stat6: "", stat7: "", stat8: "",
         grad1: "", grad2: "", grad3: "", grad4: "", grad5: "", grad6: "", grad7: "", grad8: ""
     },
@@ -837,17 +837,10 @@ let students = [
 
 
 
-
-
-
-
-
-
-
    
 ];
 
-function validatehtno() {
+ function validatehtno() {
     let htno = document.getElementById("htno").value.trim().toUpperCase(); 
     let validHTNOs = new Set();
 
@@ -860,111 +853,94 @@ function validatehtno() {
     }
 
     if (validHTNOs.has(htno)) {
-        document.querySelector(".result-page").style.display = "block";
         document.getElementById("error-message").style.display = "none";
-        document.querySelector(".no").innerHTML = htno;
 
-    
-        let student = students.find(s => s.rlno === htno);
+        setTimeout(() => {
+            document.querySelector(".result-page").style.display = "block";
+            document.querySelector(".no").innerHTML = htno;
 
-        if (student) {
-            document.querySelector(".name").innerHTML = student.stname;
+            let student = students.find(s => s.rlno === htno);
 
-            
-            let fields = ["m1", "m2", "m3", "m4", "m5", "s1", "s2", "s3", "s4", "s5", "i1", "i2", "i3", "e1", "e2", "e3", "c1", "c2", "c3", "c4", "c5", "c6", "c7", "c8"];
-            fields.forEach(field => {
-                let el = document.querySelector("." + field);
-                if (el) el.innerHTML = student[field];
-            });
+            if (student) {
+                document.querySelector(".name").innerHTML = student.stname;
 
-            
+                let fields = ["m1", "m2", "m3", "m4", "m5", "s1", "s2", "s3", "s4", "s5", "i1", "i2", "i3", "e1", "e2", "e3", "c1", "c2", "c3", "c4", "c5", "c6", "c7", "c8"];
+                fields.forEach(field => {
+                    let el = document.querySelector("." + field);
+                    if (el) el.innerHTML = student[field];
+                });
 
+                let totalFields = {
+                    "m1_s1": student.m1 + student.s1,
+                    "m2_s2": student.m2 + student.s2,
+                    "m3_s3": student.m3 + student.s3,
+                    "m4_s4": student.m4 + student.s4,
+                    "m5_s5": student.m5 + student.s5,
+                    "i1_e1": student.i1 + student.e1,
+                    "i2_e2": student.i2 + student.e2,
+                    "i3_e3": student.i3 + student.e3,
+                    "mtotal": student.m1 + student.m2 + student.m3 + student.m4 + student.m5 + student.i1 + student.i2 + student.i3,
+                    "stotal": student.s1 + student.s2 + student.s3 + student.s4 + student.s5 + student.e1 + student.e2 + student.e3,
+                    "mtotal_stotal": student.m1 + student.m2 + student.m3 + student.m4 + student.m5 + student.s1 + student.s2 + student.s3 + student.s4 + student.s5 + student.i1 + student.i2 + student.i3 + student.e1 + student.e2 + student.e3
+                };
 
-            let totalFields = {
-                "m1_s1": student.m1 + student.s1,
-                "m2_s2": student.m2 + student.s2,
-                "m3_s3": student.m3 + student.s3,
-                "m4_s4": student.m4 + student.s4,
-                "m5_s5": student.m5 + student.s5,
-                "i1_e1": student.i1 + student.e1,
-                "i2_e2": student.i2 + student.e2,
-                "i3_e3": student.i3 + student.e3,
-                "mtotal": student.m1 + student.m2 + student.m3 + student.m4 + student.m5 + student.i1 + student.i2 + student.i3,
-                "stotal": student.s1 + student.s2 + student.s3 + student.s4 + student.s5 + student.e1 + student.e2 + student.e3,
-                "mtotal_stotal": student.m1 + student.m2 + student.m3 + student.m4 + student.m5 + student.s1 + student.s2 + student.s3 + student.s4 + student.s5 + student.i1 + student.i2 + student.i3 + student.e1 + student.e2 + student.e3
-            };
+                let statusFields = {
+                    "s1": "stat1", "s2": "stat2", "s3": "stat3", "s4": "stat4", "s5": "stat5",
+                    "e1": "stat6", "e2": "stat7", "e3": "stat8"
+                };
 
-            
-
-            let statusFields = {
-                "s1": "stat1", "s2": "stat2", "s3": "stat3", "s4": "stat4", "s5": "stat5",
-                "e1": "stat6", "e2": "stat7", "e3": "stat8"
-            };
-
-            let failedSubjects = 0; 
-
-            for (let field in statusFields) {
-                let statusEl = document.querySelector("." + statusFields[field]);
-
-                if (student[field] < 21 || totalFields[field.replace("s", "m") + "_" + field] < 40) {
-                    statusEl.innerHTML = "Fail";
-                    statusEl.style.backgroundColor = "#eec0c0";
-                    failedSubjects++;
-                } else {
-                    statusEl.innerHTML = "Pass";
-                    statusEl.style.backgroundColor = "#c2f9c0";
+                let failedSubjects = 0;
+                for (let field in statusFields) {
+                    let statusEl = document.querySelector("." + statusFields[field]);
+                    if (student[field] < 21 || totalFields[field.replace("s", "m") + "_" + field] < 40) {
+                        statusEl.innerHTML = "Fail";
+                        statusEl.style.backgroundColor = "#eec0c0";
+                        failedSubjects++;
+                    } else {
+                        statusEl.innerHTML = "Pass";
+                        statusEl.style.backgroundColor = "#c2f9c0";
+                    }
                 }
+
+                document.querySelector(".sub-due").innerHTML = `${failedSubjects}/8`;
+
+                function getGrade(score) {
+                    if (score >= 90) return "O";
+                    else if (score >= 80) return "A+";
+                    else if (score >= 70) return "A";
+                    else if (score >= 60) return "B+";
+                    else if (score >= 50) return "B";
+                    else if (score >= 40) return "C";
+                    else return "F"; 
+                }
+
+                let gradeFields = {
+                    "m1_s1": "grad1", "m2_s2": "grad2", "m3_s3": "grad3", "m4_s4": "grad4", "m5_s5": "grad5",
+                    "i1_e1": "grad6", "i2_e2": "grad7", "i3_e3": "grad8"
+                };
+
+                for (let field in gradeFields) {
+                    let gradeEl = document.querySelector("." + gradeFields[field]);
+                    if (gradeEl) gradeEl.innerHTML = getGrade(totalFields[field]);
+                }
+
+                for (let key in totalFields) {
+                    let el = document.querySelector("." + key);
+                    if (el) el.innerHTML = totalFields[key];
+                }
+
+                document.getElementsByClassName("percentage")[0].innerHTML = ((totalFields.mtotal_stotal / 800) * 100).toFixed(2) + "%";
+                document.getElementsByClassName("sgpa")[0].innerHTML = ((totalFields.mtotal_stotal / 800) * 10).toFixed(2);
+                document.getElementsByClassName("ctotal")[0].innerHTML = student.c1 + student.c2 + student.c3 + student.c4 + student.c5 + student.c6 + student.c7 + student.c8;
+                document.getElementsByClassName("marks-obt")[0].innerHTML = totalFields.mtotal_stotal + "/800";
+                document.getElementsByClassName("cgpa")[0].innerHTML = ((totalFields.mtotal_stotal / 800) * 10).toFixed(2);
+                document.getElementsByClassName("cred-obt")[0].innerHTML = student.c1 + student.c2 + student.c3 + student.c4 + student.c5 + student.c6 + student.c7 + student.c8 + "/21";
+            } else {
+                alert("Student data not found!");
             }
-
-            document.querySelector(".sub-due").innerHTML = `${failedSubjects}/8`; 
-
-
-            function getGrade(score) {
-                if (score >= 90) return "O";
-                else if (score >= 80) return "A+";
-                else if (score >= 70) return "A";
-                else if (score >= 60) return "B+";
-                else if (score >= 50) return "B";
-                else if (score >= 40) return "C";
-                else return "F"; 
-            }
-
-            let gradeFields = {
-                "m1_s1": "grad1", "m2_s2": "grad2", "m3_s3": "grad3", "m4_s4": "grad4", "m5_s5": "grad5",
-                "i1_e1": "grad6", "i2_e2": "grad7", "i3_e3": "grad8"
-            };
-            
-            for (let field in gradeFields) {
-                let gradeEl = document.querySelector("." + gradeFields[field]);
-                if (gradeEl) gradeEl.innerHTML = getGrade(totalFields[field]);
-            }
-            
-            
-
-
-
-
-            for (let key in totalFields) {
-                let el = document.querySelector("." + key);
-                if (el) el.innerHTML = totalFields[key];
-            }
-
-            document.getElementsByClassName("percentage")[0].innerHTML = ((totalFields.mtotal_stotal / 800) * 100).toFixed(2) + "%";
-            document.getElementsByClassName("sgpa")[0].innerHTML = ((totalFields.mtotal_stotal / 800) * 10).toFixed(2);
-            document.getElementsByClassName("ctotal")[0].innerHTML = student.c1 + student.c2 + student.c3 + student.c4 + student.c5 + student.c6 + student.c7 + student.c8;
-            document.getElementsByClassName("marks-obt")[0].innerHTML = totalFields.mtotal_stotal +"/800";
-            document.getElementsByClassName("cgpa")[0].innerHTML = ((totalFields.mtotal_stotal / 800) * 10).toFixed(2);
-            document.getElementsByClassName("cred-obt")[0].innerHTML = student.c1 + student.c2 + student.c3 + student.c4 + student.c5 + student.c6 + student.c7 + student.c8 + "/21";
-
-
-            
-
-
-        } else {
-            alert("Student data not found!");
-        }
+        }, 3000); // 3-second delay
     } else {
         document.querySelector(".result-page").style.display = "none";
         document.getElementById("error-message").style.display = "block";
     }
-}
+}           
