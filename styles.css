@@ -123,7 +123,7 @@ th {
   color: #fff;
 }
 
-.max-marks {
+.max-marks{
   background-color: #d3d3d3;
 }
 
@@ -133,6 +133,10 @@ th {
 
 .grade {
   background-color: #cbe6ad;
+}
+
+.failed-row {
+  background-color: #eec0c0;
 }
 
 

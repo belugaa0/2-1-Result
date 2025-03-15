@@ -206,10 +206,10 @@ let students = [
     {
         rlno: "23J41A3318",
         stname: "GANJI PRANEETHA",
-        m1: 33, m4: 32, m3: 34, m4: 31, m5: 34,
-        s1: 46, s2: 43, s3: 48, s4: 49, s5: 53,
-        i1: 30, i2: 32, i3: 33,
-        e1: 44, e2: 46, e3: 49,
+        m1: 32, m2: 36, m3: 35, m4: 34, m5: 35,
+        s1: 50, s2: 46, s3: 50, s4: 49, s5: 51,
+        i1: 32, i2: 34, i3: 35,
+        e1: 50, e2: 53, e3: 54,
         c1: 4, c2: 3, c3: 3, c4: 3, c5: 3,c6: 2,c7: 2,c8: 1,
         stat1: "", stat2: "", stat3: "", stat4: "", stat5: "", stat6: "", stat7: "", stat8: "",
         grad1: "", grad2: "", grad3: "", grad4: "", grad5: "", grad6: "", grad7: "", grad8: ""
@@ -758,10 +758,10 @@ let students = [
     {
         rlno: "24J45A3302",
         stname: "ENUGU SAI DHANUSHH",
-        m1: 27, m2: 31, m3: 33, m4: 30, m5: 32,
+        m1: 27, m2: 29, m3: 32, m4: 28, m5: 31,
         s1: 34, s2: 29, s3: 45, s4: 46, s5: 48,
         i1: 29, i2: 28, i3: 32,
-        e1: 47, e2: 49, e3: 52,
+        e1: 47, e2: 49, e3: 50,
         c1: 4, c2: 3, c3: 3, c4: 3, c5: 3,c6: 2,c7: 2,c8: 1,
         stat1: "", stat2: "", stat3: "", stat4: "", stat5: "", stat6: "", stat7: "", stat8: "",
         grad1: "", grad2: "", grad3: "", grad4: "", grad5: "", grad6: "", grad7: "", grad8: ""
@@ -770,10 +770,10 @@ let students = [
     {
         rlno: "24J45A3303",
         stname: "GUDISE NITHISH KUMAR",
-        m1: 24, m2: 30, m3: 31, m4: 29, m5: 33,
+        m1: 24, m2: 28, m3: 31, m4: 29, m5: 28,
         s1: 34, s2: 26, s3: 46, s4: 44, s5: 46,
         i1: 29, i2: 30, i3: 34,
-        e1: 49, e2: 46, e3: 53,
+        e1: 49, e2: 46, e3: 51,
         c1: 4, c2: 3, c3: 3, c4: 3, c5: 3,c6: 2,c7: 2,c8: 1,
         stat1: "", stat2: "", stat3: "", stat4: "", stat5: "", stat6: "", stat7: "", stat8: "",
         grad1: "", grad2: "", grad3: "", grad4: "", grad5: "", grad6: "", grad7: "", grad8: ""
@@ -782,7 +782,7 @@ let students = [
     {
         rlno: "24J45A3304",
         stname: "MADDI AMULYA",
-        m1: 25, m2: 31, m3: 33, m4: 30, m5: 34,
+        m1: 25, m2: 30, m3: 31, m4: 29, m5: 30,
         s1: 36, s2: 26, s3: 47, s4: 45, s5: 47,
         i1: 30, i2: 31, i3: 33,
         e1: 48, e2: 50, e3: 52,
@@ -806,8 +806,8 @@ let students = [
     {
         rlno: "24J45A3306",
         stname: "PUTTAPAKULA BHARATH",
-        m1: 31, m2: 31, m3: 33, m4: 30, m5: 32,
-        s1: 40, s2: 31, s3: 43, s4: 40, s5: 50,
+        m1: 31, m2: 32, m3: 30, m4: 28, m5: 32,
+        s1: 40, s2: 31, s3: 43, s4: 40, s5: 47,
         i1: 30, i2: 31, i3: 32,
         e1: 46, e2: 48, e3: 50,
         c1: 4, c2: 3, c3: 3, c4: 3, c5: 3,c6: 2,c7: 2,c8: 1,
@@ -826,25 +826,18 @@ let students = [
         stat1: "", stat2: "", stat3: "", stat4: "", stat5: "", stat6: "", stat7: "", stat8: "",
         grad1: "", grad2: "", grad3: "", grad4: "", grad5: "", grad6: "", grad7: "", grad8: ""
     },
-
-
-
-
-
-
-
-
-
-
-
    
 ];
 
- function validatehtno() {
+
+
+
+
+
+function validatehtno() {
     let htno = document.getElementById("htno").value.trim().toUpperCase(); 
     let validHTNOs = new Set();
 
-    // Generate valid roll numbers
     for (let i = 3301; i <= 3364; i++) {
         validHTNOs.add(`23J41A${i}`);
     }
@@ -892,13 +885,19 @@ let students = [
                 let failedSubjects = 0;
                 for (let field in statusFields) {
                     let statusEl = document.querySelector("." + statusFields[field]);
+                    let rowEl = statusEl.closest('tr'); 
+
                     if (student[field] < 21 || totalFields[field.replace("s", "m") + "_" + field] < 40) {
                         statusEl.innerHTML = "Fail";
-                        statusEl.style.backgroundColor = "#eec0c0";
+                        rowEl.classList.add("failed-row");
+                        
+
+                         
+
                         failedSubjects++;
                     } else {
                         statusEl.innerHTML = "Pass";
-                        statusEl.style.backgroundColor = "#c2f9c0";
+                        rowEl.classList.remove("failed-row"); 
                     }
                 }
 
@@ -938,9 +937,10 @@ let students = [
             } else {
                 alert("Student data not found!");
             }
-        }, 3000); // 3-second delay
+        }, 2500); 
     } else {
         document.querySelector(".result-page").style.display = "none";
         document.getElementById("error-message").style.display = "block";
     }
-}           
+}
+
